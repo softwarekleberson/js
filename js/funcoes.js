@@ -8,31 +8,28 @@ function exibir_categoria(categoria){
 
         if(categoria == elementos[i].id)
             elementos[i].style = "display:block";
-        
-
         else 
-            elementos[i].style = "display:none";
-        
+            elementos[i].style = "display:none"; 
     }
-
 }
 
-let exibir_todos = () => {
+function exibir_todos() {
     let elementos = document.getElementsByClassName('box_produto');
 
-    for(var i=0; i<elementos.length; i++){
+    for (var i = 0; i < elementos.length; i++) {
         elementos[i].style = "display:block";
 
     }
-};
+}
+
 
 let destaque = (imagem) => {
     console.log(imagem);
-    if(imagem.width == 240){
-        imagem.width = 120;
+    if(imagem.style.width == '100px'){
+        imagem.style.width = '240px';
     }
 
     else{
-        imagem.width = 240;
+        imagem.style.width = '100px';
     }
-};
+}

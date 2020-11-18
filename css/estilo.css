@@ -2,17 +2,33 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+
 #formas_pagamento{
-    color:red;
+    color:black;
+    font-size: 15px;
+
 }
 
-#menu{
-    background-color: #FF0000;
+.produtos{
+    display: inline-block;
+    width: 80px;
+    height: 1000px;
+    vertical-align: top;
 }
 
+.box_produto{
+    display: inline-block;
+    width: 300px;
+    text-align: center;
+    margin: 12px 0px 0px 32px;
+}
+
+  
+  
 #menu a {
     color:white;
     text-decoration: nome;
+    
 }
 
 .preco{
@@ -21,4 +37,8 @@ body{
 
 #rodape{
     text-align: center;
+}
+
+.img-200-200{
+    width: 200px;
 }
